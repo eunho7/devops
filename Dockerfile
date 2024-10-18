@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17-jdk-jammy as builder
+FROM eclipse-temurin:17-jdk-jammy
 VOLUME /tmp
 COPY build/libs/devopt-0.0.1-SNAPSHOT.jar app.jar
 ENV USE_POST 8090

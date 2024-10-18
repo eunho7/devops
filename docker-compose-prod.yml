@@ -44,12 +44,12 @@ services:
       - my_bridge_network
 
   app1:
-    image: masungil/devops:latest
+    image: eunho7/devops:latest
     networks:
       - my_bridge_network
 
   app2:
-    image: masungil/devops:latest
+    image: eunho7/devops:latest
     networks:
       - my_bridge_network
 

@@ -26,8 +26,6 @@ import lombok.extern.slf4j.Slf4j;
  * curl http://localhost:8090/codeList?grp_cd=lang
  * 코드 상세보기 
  * curl -X GET "http://localhost:8090/findByCd?grp_cd=lang&cd=java"
- * 
- * 
  */
 @RestController
 @RequiredArgsConstructor
